@@ -1,4 +1,8 @@
 ﻿using System.Diagnostics;
+// Name: Caleb Roskelley
+// Project 1 Vigenere Cipher
+// Prof Lewellan
+// Due Date: 01/15/2025
 internal class Program
 {
     private static void Main(string[] args)
@@ -19,19 +23,14 @@ internal class Program
         {
             Console.WriteLine("Now please provide 1 lowercase letter as an encryption key.");
             userKey = (char) Console.Read();
-            isValid = TestIsLowercaseLetter(userKey);
+            isValid = IsLowercaseLetter(userKey);
         }
         while(!isValid);
         ShiftLetters(userKey, userPhrase);
     }
-    public static bool TestIsLowercaseLetter(char letter)
+
+    public static bool IsLowercaseLetter(char letter)
     {
-        // Debug.Assert(TestIsLowercaseLetter('a'));
-        // Debug.Assert(TestIsLowercaseLetter('b'));
-        // Debug.Assert(TestIsLowercaseLetter('z'));
-        // Debug.Assert(!TestIsLowercaseLetter('A'));
-        // Debug.Assert(!TestIsLowercaseLetter('`'));
-        // Debug.Assert(!TestIsLowercaseLetter('{'));
         if(!letter.ToString().ToLower().Equals(letter.ToString()))
             {
                 Console.WriteLine("Returned false");
@@ -42,8 +41,6 @@ internal class Program
 
     static bool IsValidPhrase(string phrase)
     {
-        //Debug.Assert(!IsValidPhrase("Your mom is cool"));
-        //Debug.Assert(IsValidPhrase("your mom is cool"));
         foreach(char letter in phrase)
         {
             if(!letter.ToString().ToLower().Equals(letter.ToString()))
