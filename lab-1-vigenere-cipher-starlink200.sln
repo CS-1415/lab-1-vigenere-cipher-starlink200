@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-1-vigenere-cipher-starlink200", "lab-1-vigenere-cipher-starlink200.csproj", "{7AB9DC34-1B23-39BA-13E6-847483CF3EA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AB9DC34-1B23-39BA-13E6-847483CF3EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB9DC34-1B23-39BA-13E6-847483CF3EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB9DC34-1B23-39BA-13E6-847483CF3EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB9DC34-1B23-39BA-13E6-847483CF3EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {657F0875-EAEB-40D9-A3F4-0601A11B2C2F}
+	EndGlobalSection
+EndGlobal
